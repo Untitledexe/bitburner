@@ -28,7 +28,7 @@ export async function main(ns) {
               hackedHosts.push(host[i])
           }
       }
-      await (ns.sleep(60000))
+      await (ns.sleep(600))
   }
 }
 
